@@ -406,7 +406,7 @@
  *   998 : Dummy Table that ALWAYS reads 25°C or the temperature defined below.
  *   999 : Dummy Table that ALWAYS reads 100°C or the temperature defined below.
  */
-#define TEMP_SENSOR_0 -4
+#define TEMP_SENSOR_0 1
 #define TEMP_SENSOR_1 0
 #define TEMP_SENSOR_2 0
 #define TEMP_SENSOR_3 0
@@ -483,10 +483,10 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
-  // Creality Ender-3
-#define DEFAULT_Kp 26.66
-#define DEFAULT_Ki 2.05
-#define DEFAULT_Kd 86.55
+  // FlashForge Finder 2020-05-22
+#define DEFAULT_Kp 3.00
+#define DEFAULT_Ki 1.12
+#define DEFAULT_Kd 85.15
 
 #endif // PIDTEMP
 
